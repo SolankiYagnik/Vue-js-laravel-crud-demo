@@ -214,27 +214,28 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
 <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"><strong>Step 8: Create Vue Component</strong></div>
 
 <p>In this step, we will create a vue component in the <strong>components</strong>&nbsp;folder in the <strong>resource/js&nbsp;</strong>folder.</p>
-View app
-App.vue
-Student.vue
+<p>View app</p>
+<p>App.vue</p>
+<p>Student.vue</p>
 
 <p><strong>App.vue&nbsp;</strong>is the main file of our Vue app. We will define&nbsp;<strong>router-view&nbsp;</strong>in that file. All the routes will be shown in&nbsp;<strong>App.vue&nbsp;</strong>file.</p>
 
 <p>After that, open <strong>App.vue</strong> file and Update the following code into that file.</p>
 
-<pre><code class="language-html hljs xml"><span class="hljs-tag">
+
+<pre>
+<code class="language-html hljs xml">
 <script setup>
 import Student from './components/Student.vue'
 </script>
-
 <template>
   <Student />
 </template>
-</span></code></pre>
+</code>
+</pre>
 
 <pre>
     <code>
-        <span>
             <template>
                 <div class="container">
                     <div class="row justify-content-center">
@@ -370,7 +371,6 @@ import Student from './components/Student.vue'
                 }
             }
             </script>
-        </span>
     </code>
 </pre>
 
