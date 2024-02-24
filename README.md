@@ -229,15 +229,15 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
 import Student from './components/Student.vue'
 </script>
 
-<span class="hljs-tag">"<"
+<span class="hljs-tag"><
             <span class="hljs-name">template</span>
-            ">"</span>
-  <span class="hljs-tag">"<"
+            ></span>
+  <span class="hljs-tag"><
             <span class="hljs-name">Student </span>
-            "/>"</span>
-  <span class="hljs-tag">"</"
+            /></span>
+  <span class="hljs-tag"></
             <span class="hljs-name">template</span>
-            ">"</span>
+            ></span>
 </code>
 </pre>
 
