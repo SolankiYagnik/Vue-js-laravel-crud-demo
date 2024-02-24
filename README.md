@@ -167,6 +167,8 @@ In this step, we will update the Student.php model.
      */</span>
     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">destroy</span><span class="hljs-params">(Student $student)</span>
     </span>{
+        $student = Student::find($id);
+        $student->delete();
         <span class="hljs-keyword">return</span> $student;
     }
 }</code></pre>
