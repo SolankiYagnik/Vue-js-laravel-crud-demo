@@ -2,7 +2,7 @@
     <img src="https://github.com/SolankiYagnik/Vue-js-laravel-crud-demo/assets/88535982/5d616159-b66f-4a02-aec0-3c2ab455a3df" width="400" alt="Laravel + Vue CRUD"></a>
 </p>
 
-## About Laravel + Vue CRUD Tutorial
+## How To Create Laravel 10 With Vue JS CRUD Operation
 
 In this article, we will see how to create laravel 10 with vue js crud operation. Here, we will learn to create crud operation in laravel 10 vue JS. You can learn to create, read, update and delete operations with a single page application (SPA) in the vue and vue router. So, you can create crud operation without page refresh in laravel 10 using vue 3.
 
@@ -228,15 +228,24 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
 <script setup>
 import Student from './components/Student.vue'
 </script>
-<template>
-  <Student />
-</template>
+
+<span class="hljs-tag">"<"
+            <span class="hljs-name">template</span>
+            ">"</span>
+  <span class="hljs-tag">"<"
+            <span class="hljs-name">Student </span>
+            "/>"</span>
+  <span class="hljs-tag">"</"
+            <span class="hljs-name">template</span>
+            ">"</span>
 </code>
 </pre>
 
 <pre>
     <code>
-            <template>
+        <span class="hljs-tag">"<"
+            <span class="hljs-name">template</span>
+            ">"</span>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10">
@@ -286,7 +295,7 @@ import Student from './components/Student.vue'
                         </div>
                     </div>
                 </div>
-            </template>
+            </template>'
             <script>
             import axios from 'axios';
             
