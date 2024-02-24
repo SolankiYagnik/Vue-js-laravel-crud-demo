@@ -223,16 +223,7 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
 <p>After that, open <strong>App.vue</strong> file and Update the following code into that file.</p>
 
 
-<pre>
-<code class="language-html hljs xml">
-<script setup>
-import Student from './components/Student.vue'
-</script>
-
-<pre><code class="language-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">Student</span>/&gt;</span>    
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
-</code></pre>
+<pre><code class="language-html hljs xml"><script setup>import Student from './components/Student.vue'</script><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">Student</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></code></pre>
 
 <strong>Student.vue&nbsp;</strong>file.</p>
 
