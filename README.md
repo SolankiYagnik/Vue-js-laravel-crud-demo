@@ -234,8 +234,9 @@ import Student from './components/Student.vue'
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 </code></pre>
 
+<strong>Student.vue&nbsp;</strong>file.</p>
 
-        <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+        <template>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10">
@@ -285,7 +286,7 @@ import Student from './components/Student.vue'
                         </div>
                     </div>
                 </div>
-            </template>'
+            </template>
             <script>
             import axios from 'axios';
             
