@@ -23,7 +23,7 @@ Now, we will set up the database configuration in the .env file.
 <pre><code class="language-php hljs">DB_CONNECTION=mysql 
 DB_HOST=<span class="hljs-number">127.0</span><span class="hljs-number">.0</span><span class="hljs-number">.1</span> 
 DB_PORT=<span class="hljs-number">3306</span> 
-DB_DATABASE=laravel_9_vue_js_crud_operation
+DB_DATABASE=laravel_10_vue_js_crud_operation
 DB_USERNAME=root
 DB_PASSWORD=root</code></pre>
 
