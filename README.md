@@ -227,8 +227,9 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
 
 <pre><code class="language-html hljs xml"><script setup>import Student from './components/Student.vue'</script><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">Student</span>/&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></code></pre>
 
-<strong>Student.vue&nbsp;</strong>file.</p>
+<p><strong>Student.vue&nbsp;</strong>file.</p>
 
+<p>
 <template>
         <div class="container">
             <div class="row justify-content-center">
@@ -280,6 +281,7 @@ Route::resource(<span class="hljs-string">'student'</span>,App\Http\Controllers\
             </div>
         </div>
     </template>
+</p>
     <script>
     import axios from 'axios';
     
