@@ -37,19 +37,18 @@ After that, we will install vue, vue-router, and vue-axios. Vue-axios will be us
 cd <your-project-name>
 npm install
 npm run dev
+</code>
 </pre>
 
-<pre><code class="language-php hljs">
-npm run build
-</pre>
+<pre><code class="language-php hljs">npm run build</code></pre>
 
 ## You can use Vue directly from a CDN via a script tag:
 
-<pre class="shiki github-dark vp-code"><code><span class="line"><span style="color:#E1E4E8;">&lt;</span><span style="color:#85E89D;">script</span><span style="color:#B392F0;"> src</span><span style="color:#E1E4E8;">=</span><span style="color:#9ECBFF;">"https://unpkg.com/vue@3/dist/vue.global.js"</span><span style="color:#E1E4E8;">&gt;&lt;/</span><span style="color:#85E89D;">script</span><span style="color:#E1E4E8;">&gt;</span></span></code></pre>
+<pre><code><span class="line"><span style="color:#E1E4E8;">&lt;</span><span style="color:#85E89D;">script</span><span style="color:#B392F0;"> src</span><span style="color:#E1E4E8;">=</span><span style="color:#9ECBFF;">"https://unpkg.com/vue@3/dist/vue.global.js"</span><span style="color:#E1E4E8;">&gt;&lt;/</span><span style="color:#85E89D;">script</span><span style="color:#E1E4E8;">&gt;</span></span></code></pre>
 
 <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"><strong>Step 4: Create Migration</strong></div>
 Now, we will create a migration, model, and controller using the following command. -mcr command creates migration, model, and controller in a single command.
-<pre><code class="language-php hljs">php artisan make:model Category -mcr</code></pre>
+<pre><code class="language-php hljs">php artisan make:model Student -mcr</code></pre>
 
 Migration:
 
@@ -138,7 +137,7 @@ In this step, we will update the Student.php model.
     <span class="hljs-comment">/**
      * Display the specified resource.
      *
-     * <span class="hljs-doctag">@param</span>  \App\Models\Category  $category
+     * <span class="hljs-doctag">@param</span>  \App\Models\Student  $student
      * <span class="hljs-doctag">@return</span> \Illuminate\Http\Response
      */</span>
     <span class="hljs-keyword">public</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">show</span><span class="hljs-params">(Student $student)</span>
