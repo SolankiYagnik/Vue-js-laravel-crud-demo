@@ -231,13 +231,11 @@ import Student from './components/Student.vue'
 
 <pre><code class="language-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">Student</span>/&gt;</span>    
-<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></code></pre>
+<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
+</code></pre>
 
-<pre>
-    <code>
-        <span class="hljs-tag">"<"
-            <span class="hljs-name">template</span>
-            ">"</span>
+
+        <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-md-10">
@@ -372,8 +370,7 @@ import Student from './components/Student.vue'
                 }
             }
             </script>
-    </code>
-</pre>
+  
 
 <div style="background:#eeeeee;border:1px solid #cccccc;padding:5px 10px;"><strong>Step 12: Run Laravel Application</strong></div>
 In this step, we will run the laravel 10 vue 3 crud operation application using the following command.
