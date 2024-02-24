@@ -1,5 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank">
-    <img src="https://github.com/SolankiYagnik/Vue-js-laravel-crud-demo/assets/88535982/aa6f75ac-8da5-4310-9b98-4134bc3ba667" width="400" alt="Laravel + Vue CRUD"></a>
+    <img src="https://github.com/SolankiYagnik/Vue-js-laravel-crud-demo/assets/88535982/5d616159-b66f-4a02-aec0-3c2ab455a3df" width="400" alt="Laravel + Vue CRUD"></a>
 </p>
 
 <p align="center">
